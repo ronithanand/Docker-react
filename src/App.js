@@ -8,7 +8,7 @@ function App() {
       
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>WELCOME TO REACT APP</h1>
+        <h1>WELCOME TO REACT APP dont see the webpage</h1>
         <p>
           learning<code>Hi There whats</code> autoupdate sequence.
         </p>
