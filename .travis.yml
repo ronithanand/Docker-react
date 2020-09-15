@@ -6,11 +6,7 @@ before_install:
   - docker build -t ronithanand/docker-react -f Dockerfile.dev .
 script:
   - docker run ronithanand/docker-react npm run test -- --coverage
-deploy:
-  provider: azure_web_apps
-  username: ronithanand302@gmail.com       # If AZURE_WA_USERNAME isn't set
-  password: #ZURE_WA_PASSWORD isn't set
-  site: https://dockerdeploydev.azurewebsites.net       # If AZURE_WA_SITE isn't set
-  slot: https://dockerdeploydev-docker-react.azurewebsites.net      # (optional) If AZURE_WA_SLOT isn't set
- on: 
-   branch: master
+#deploy:
+ # provider: azure_web_apps
+  # on: 
+  # branch: master
