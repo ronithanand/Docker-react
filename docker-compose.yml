@@ -21,4 +21,4 @@ services:
       command: ["npm","run","test"]
              
 
-     # stdin_open: true
+      stdin_open: true
