@@ -9,4 +9,4 @@ FROM node:alpine
 
   EXPOSE 8080
 
-  COPY --from= builder /app/build /usr/share/nginx/html
+  COPY --from=/app/build /usr/share/nginx/html
