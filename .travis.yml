@@ -15,6 +15,7 @@ deploy:
   env: "DocckerReact-env"
   bucket_name: "elasticbeanstalk-eu-north-1-460691932461"
   bucket_path: "doccker-react"
+  skip_cleanup: true
 
   on: 
     branch: master
